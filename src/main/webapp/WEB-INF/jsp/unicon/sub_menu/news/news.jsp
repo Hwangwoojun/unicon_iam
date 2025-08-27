@@ -33,7 +33,7 @@ function fn_inqire_notice(nttId,bbsId) {
 </script>
 </head>
 <body>
-<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>	
+<noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>
 <!-- 전체 레이어 시작 -->
 <jsp:include page="../../inc/UniconIncHeader.jsp" flush="true"/>
 <jsp:include page="../../inc/UniconIncAside.jsp" flush="true"/>
@@ -89,7 +89,7 @@ function fn_inqire_notice(nttId,bbsId) {
 
 	</div>
 
-</div>	
+</div>
 <jsp:include page="../../inc/UniconIncFooter.jsp" flush="true"/>
 </body>
 </html>

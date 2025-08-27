@@ -106,7 +106,7 @@
 		<div class="researcher_view" id="kimYG">
 			<div class="info">
 				<div class="name"><strong>김용건</strong> 교수</div>
-				<b>연세대학교 국제학대학원 교수<br>
+				<b>연세대학교 국제학대학원 교수<br/><br/>
 					ygkim@yonsei.ac.kr
 				</b>
 			</div>

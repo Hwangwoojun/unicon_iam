@@ -118,11 +118,12 @@ public class EgovPartnershipController {
 		model.addAttribute("galList", map.get("resultList"));
 		
 		String year = request.getParameter("year") ;
-		String sNum; 
-		
+		String sNum;
+
 		if(year==null||year.isBlank()) {
-			year="2024";
+			year="2025";
 		}
+
 		
 		model.addAttribute("gNum", "04");
 		model.addAttribute("sNum", year);

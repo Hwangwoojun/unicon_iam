@@ -22,7 +22,7 @@
 <jsp:include page="../../inc/dtd.jsp" flush="true"/>
 </head>
 <body>
-<noscript>Some features are not available in browsers that do not support JavaScript.</noscript>	
+<noscript>Some features are not available in browsers that do not support JavaScript.</noscript>
 <!-- 전체 레이어 시작 -->
 <jsp:include page="../../inc/UniconIncHeader.jsp" flush="true"/>
 <jsp:include page="../../inc/UniconIncAside.jsp" flush="true"/>
@@ -49,7 +49,7 @@
 	
 	<div class="assignment_area2">
 		<div class="inner">
-			<div class="dtit">Expected effect</div>
+			<div class="dtit">Expected Effect</div>
 			<div class="tb">The UNICON project holds significance across scientific, technological, socioeconomic, and environmental dimensions..</div>
 			<ul>
 				<li>
@@ -86,8 +86,8 @@
 			<div class="glbox mo_scroll_wrap">
 				<div class="point" id="point1"></div>
 				<div class="mo_scroll">
-					<img src="/images/unicon/img_assignment_area3.svg" alt="Table of Development of Global Reduction Integrated Evaluation Model">
-				</div>
+					<img class="img_assignment_area4" src="/images/unicon/img_assignment_area4.svg" alt="Table of Development of Global Reduction Integrated Evaluation Model">
+				</div> <!-- /images/unicon/img_assignment_area3.svg -->
 			</div>
 		</div>
 	</div>

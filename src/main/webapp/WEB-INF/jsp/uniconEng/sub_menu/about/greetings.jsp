@@ -33,27 +33,28 @@
 		<div class="greetings_area1">"Development of a Global Integrated Evaluation Model for Carbon Neutrality Transition"<br>A collaborative research project conducted by Yonsei University, Korea Environmental Institute, <br>Seoul National University, and Sookmyung Women's University.</div>
 		<div class="uni_list">
 			<div class="box">
-				<div class="logo"><img src="/images/unicon/logo_subuni01.svg" alt="연세대학교"></div>
+				<div class="logo"><img src="/images/unicon/img_subuni.svg" alt="image"></div>
 				<div class="cont">
-					<div class="coming">In ready.</div>
-				</div>
-			</div>
-			<div class="box">
-				<div class="logo"><img src="/images/unicon/logo_subuni02.svg" alt="한국환경연구원"></div>
-				<div class="cont">
-					<div class="coming">In ready.</div>
-				</div>
-			</div>
-			<div class="box">
-				<div class="logo"><img src="/images/unicon/logo_subuni03.svg" alt="서울대학교"></div>
-				<div class="cont">
-					<div class="coming">In ready.</div>
-				</div>
-			</div>
-			<div class="box">
-				<div class="logo"><img src="/images/unicon/logo_subuni04.svg" alt="숙명여자대학교"></div>
-				<div class="cont">
-					<div class="coming">In ready.</div>
+					<div class="coming">
+						Climate change is one of the most significant global challenges we face today,
+						requiring international collaboration and policy decisions grounded firmly in scientific evidence.
+						Under the Paris Agreement, countries set their own emission reduction targets, known as Nationally Determined Contributions (NDCs).
+						Through mechanisms like the Global Stocktake (GST) and International Carbon Markets (IMM),
+						the global community regularly evaluates progress to ensure transparency and accountability toward achieving carbon neutrality.
+						<br><br>
+						Integrated analytical tools are essential to systematically assess the effectiveness of greenhouse gas emission reductions and derive policy implications.
+						While existing bottom-up or top-down models each have their advantages,
+						the lack of interconnectivity between these approaches often results in gaps when conducting comprehensive policy analysis.
+						<br><br>
+						UNICON project addresses this gap through a global integrated model framework that links a top-down economic model with bottom-up sectoral models.
+						By enabling economic analysis that reflects technological developments, diffusion, and emission reduction pathways across various sectors,
+						we aim to provide scientifically robust evidence supporting the feasibility and effectiveness of policies toward achieving carbon neutrality.
+						<br><br>
+						We look forward to ongoing cooperation and dialogue, ensuring that UNICON contributes meaningfully toward a carbon-neutral society.
+						We sincerely appreciate your continued interest and support.
+						<br><br>
+						Thank you.
+					</div>
 				</div>
 			</div>
 		</div>

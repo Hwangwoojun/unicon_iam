@@ -38,20 +38,20 @@
 	
 	<div class="map_text">
 		<div class="inner">
-			<div class="locat">50 Yonsei-ro, Seodaemun-gu, Seoul <br class="mo_vw">New Millennium Hall, Yonsei University</div>
+			<div class="locat">50 Yonsei-ro, Seodaemun-gu, Seoul, <br class="mo_vw">New Millennium Hall, Yonsei University</div>
 			<ul class="door">
 				<li class="i1">
 					<div class="tt">Main Gate (Front Gate)</div>
 					<p><br class="pc_vw">If you follow the arrow on the map at the main gate, go straight at the main gate, turn right, and follow the road to see the building.</p>
 				</li>
 				<li class="i2">
-					<div class="tt">the east gate</div>
+					<div class="tt">East Gate</div>
 					<p><br class="pc_vw">If you go up the hill from the east gate, there is an international dormitory on the left and the school building.<br>You can use the stairs to go down to the main entrance.</p>
 				</li>
 			</ul>
 			<div class="train">
 				<div class="box i1">
-					<div class="tit">subway</div>
+					<div class="tit">Subway</div>
 					<ul class="con">
 						<li class="line3"><span>Line 3</span>Free shuttle bus at Gyeongbokgung Station: Please refer to the Yonsei Free Shuttle Bus Route & Time section.
 							<!-- <a href="#" class="btn_shuttle">Check the shuttle bus</a> -->
@@ -60,7 +60,7 @@
 					</ul>
 				</div>
 				<div class="box i2">
-					<div class="tit">Airport transportation</div>
+					<div class="tit">Airport Transportation</div>
 					<ul class="con">
 						<li class="taxi"><span>Taxi</span>Taxi to and from Incheon Airport can be used all day, but the fare is between 50,000 won and 70,000 won.</li>
 						<li class="bus"><span>Bus</span>You can arrive at Yonsei University from Incheon International Airport using airport bus #6011.<br>
@@ -93,7 +93,7 @@ $(document).ready (function () {
 	var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 	
 	
-	var imageSrc = '/images/unicon/icon_map_point.svg'; // 마커이미지의 주소입니다    
+	var imageSrc = '/images/unicon/icon_map_point_eng.svg'; // 마커이미지의 주소입니다
 	if (isMobileDevice()) {
 		var imageSize = new kakao.maps.Size(220, 69); // 마커이미지의 크기입니다
 		var imageOption = {offset: new kakao.maps.Point(110, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.

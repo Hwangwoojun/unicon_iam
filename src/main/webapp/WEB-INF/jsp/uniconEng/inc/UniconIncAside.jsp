@@ -55,6 +55,7 @@
 			            <a href="/eng/database/forest" class="${sNum == '05' ? 'on' : ''}">Forest</a>
 			        </c:when>
 			        <c:when test="${gNum == '04'}">
+						<a href="/eng/partnership/partnership?year=2025" class="${sNum == '2025' ? 'on' : ''}">2025</a>
 			            <a href="/eng/partnership/partnership?year=2024" class="${sNum == '2024' ? 'on' : ''}">2024</a>
 			            <a href="/eng/partnership/partnership?year=2023" class="${sNum == '2023' ? 'on' : ''}">2023</a>
 			            <a href="/eng/partnership/partnership?year=2022" class="${sNum == '2022' ? 'on' : ''}">2022</a>

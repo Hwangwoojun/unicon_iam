@@ -32,24 +32,24 @@
 	
 	<div class="inner">
 		<div class="select_box">
-			<dl class="select2" style="width:420px !important;">
-				<dt>국가별 발전기종류별 설비용량 (2020년 기준)</dt>
+			<dl class="select2" style="width:500px !important;">
+				<dt>Facility Capacity by Generator Type (as of 2020)</dt>
 				<dd>
 					<div class="box a on">
-						<a href="javascript:void(0);" class="t1 on">발전기종류별 설비용량 (2020년 기준)</a>
-						<a href="javascript:void(0);" class="t2">발전기 종류별 비중 (2020년 기준)</a>
+						<a href="javascript:void(0);" class="t1 on">Facility Capacity by Generator Type (as of 2020)</a>
+						<a href="javascript:void(0);" class="t2">Share by Generator Type (as of 2020)</a>
 					</div>
 				</dd>
 			</dl>
 			<dl class="select1">
-				<dt>한국</dt>
+				<dt>Korea</dt>
 				<dd>
-					<a href="javascript:void(0);" class="a on">한국</a>
-					<a href="javascript:void(0);" class="b">중국</a>
-					<a href="javascript:void(0);" class="c">일본</a>
-					<a href="javascript:void(0);" class="d">유럽</a>
-					<a href="javascript:void(0);" class="e">미국</a>
-					<a href="javascript:void(0);" class="f">캐나다</a>
+					<a href="javascript:void(0);" class="a on">Korea</a>
+					<a href="javascript:void(0);" class="b">China</a>
+					<a href="javascript:void(0);" class="c">Japan</a>
+					<a href="javascript:void(0);" class="d">Europe</a>
+					<a href="javascript:void(0);" class="e">USA</a>
+					<a href="javascript:void(0);" class="f">Canada</a>
 				</dd>
 			</dl>
 			<dl class="select3" style="display: none;">
@@ -148,7 +148,7 @@ $(document).ready(function(){
 	
 	//모형결과,배출량 선택시
 	$(".select_box .select2 .box.a .t1").click(function(){
-		$(".select_box .select1 dt").text("한국");
+		$(".select_box .select1 dt").text("Korea");
 		$(".select_box .select1").css("display", "block");
 		$(".select_box .select3").css("display", "none");
 		$(".chart_wrap .chart_a1").addClass("on").siblings().removeClass("on");

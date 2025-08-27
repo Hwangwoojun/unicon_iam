@@ -37,64 +37,247 @@
 				<a href="/about/researcher_view.php" class="btn next"></a>
 			</div>
 		</div>
-		<div class="researcher_view">
+
+		<c:set var="profId" value="${param.id}" />
+
+		<c:if test="${profId eq 'jungTY'}">
+		<div class="researcher_view" id="jungTY">
 			<div class="info">
-				<div class="name"><strong>정태용</strong> 교수</div>
-				<b>연세대학교 국제학대학원 교수<br>
-					국제학대학원 부원장
+				<div class="name"><strong>Jung <br/> Tae Yong</strong></div>
+				<b>Professor, Graduate School of International Studies,<br>
+					Yonsei University
 				</b>
-				<p>02-2123-3594 (연구실)<br>
+				<p>+82-2-2123-3594 (Office)<br>
 					tyjung00@yonsei.ac.kr
 				</p>
 			</div>
 			<div class="career">
 				<dl>
-					<dt>학력</dt>
+					<dt>Education</dt>
 					<dd>
 						<ul>
-							<li><span>·  1991</span>경제학박사 미국 뉴저지주립대학 (Rutgers University), New Brunswick, NJ, USA</li>
-							<li><span>·  1988</span>경제학석사 미국 뉴저지주립대학 (Rutgers University), New Brunswick, NJ, USA</li>
-							<li><span>·  1985</span>경제학학사 서울대학교  무역학과</li>
+							<li><span>·  1991</span>Ph. D. Economics, Rutgers, The State University of New Jersey, New Bruinswick, NJ, USA</li>
+							<li><span>·  1988</span>MA. Economics, Rutgers, The State University of New Jersey, New Bruinswick, NJ, USA</li>
+							<li><span>·  1985</span>BA.Economics, Seoul National University, Seoul, Republic of Korea</li>
 						</ul>
 					</dd>
 				</dl>
 				<dl>
-					<dt>이력</dt>
+					<dt>Work <br/> Experience</dt>
 					<dd>
 						<ul>
-							<li><span>·  2015. 3 ~ 현재</span>연세대학교 국제학대학원 교수, 국제학대학원 부원장</li>
-							<li><span>·  2013. 2 ~ 2015. 2</span>KDI 국제정책대학원, 교수 </li>
-							<li><span>·  2007. 6 ~ 2013. 2</span>아시아개발은행, 주임 기후변화 전문가</li>
-							<li><span>·  2010. 12 ~ 2012. 6</span>글로벌녹색성장연구소 (GGGI), 부소장</li>
-							<li><span>·  2005. 12 ~ 2007. 6</span>世界銀行, 선임 에너지 이코노미스트</li>
-							<li><span>·  1999. 4 ~ 2005.11</span>日本 地球環境戰略硏究機關, 기후정책연구부장</li>
-							<li><span>·  1992. 3 ~ 1998.11</span>한국 에너지경제연구원, 연구위원</li>
-							<li><span>·  1990. 8 ~ 1992.2</span>미국 통신협회, Associate Manager</li>
+							<li><span>·  2023. 2 - </span>Associate Dean & Director, Center for International Studies, Graduate School of International Studies, Yonsei University, Republic of Korea</li>
+							<li><span>·  2015. 3 - </span>Professor, Graduate School of International Studies, Yonsei University, Republic of Korea</li>
+							<li><span>·  2013. 2 - 2015. 2</span>Professor, KDI School of Public Policy & Management, Republic of Korea</li>
+							<li><span>·  2007. 6 - 2013. 2</span>Principal Climate Change Specialist, East Asia Regional Department, Asian Development Bank (ADB), Philippines</li>
+							<li><span>·  2010. 12 - 2012. 6</span>Deputy Executive Director, Global Green Growth Institute (GGGI),Republic of Korea</li>
+							<li><span>·  2005. 12 - 2007. 6</span>Senior Energy Economist, ESMAP, Energy, Transport & Water Department, World Bank, USA</li>
+							<li><span>·  1999. 4 - 2005.11</span>Project Leader, Climate Policy Project ,Institute for Global Environmental Strategies (IGES), Japan</li>
+							<li><span>·  1992. 3 - 1998.11</span>Senior Fellow & Director, Energy Modeling Division, Korea Energy Economics Institute (KEEI), Republic of Korea</li>
+							<li><span>·  1990. 8 - 1992.2</span>Associate Manager, National Exchange Carrier Association, Whippany, USA</li>
 						</ul>
 					</dd>
 				</dl>
 				<dl>
-					<dt>경력</dt>
+					<dt>Professional <br/> Activities</dt>
 					<dd>
 						<ul>
-							<li><span>·  2007.12 ~ 2008. 2</span>제  17대  대통령직  인수위원회, 국가경쟁력강화특별위원회, 기후변화 에너지대책 T/F, 상임자문위원</li>
-							<li><span>·  2009.2 ~ 2010.7</span>대통령직속 녹색성장위원회, 에너지 기후변화분과위원회, 민간위원</li>
-							<li><span>·  2010. 1 ~ 2021. 12</span>국회 기후변화포럼 이사</li>
-							<li><span>·  2014. 8 ~ 2017. 4</span>대통령직속 통일준비위원회, 경제분과 전문위원</li>
-							<li><span>·  2018 ~ 2023</span>Coordinating  Lead  Author,  Intergovernmental Panel  on Climate Change(IPCC), the 6th IPCC Assessment Report, UN</li>
-							<li><span>·  2018. 6 ~ 2019. 12</span>안민포럼 회장</li>
-							<li><span>·  2019. 1 ~ 2020. 12</span>한국기후변화학회 부회장</li>
-							<li><span>·  2019. 5 ~ 2021. 4</span>대통령직속 국가기후환경회의, 국제분과위원회 전문위원</li>
-							<li><span>·  2019. 9 ~</span>반기문재단, Sustainable Development Program, 디렉터</li>
-							<li><span>·  2022. 3 ~</span>K-정책플랫폼, 원장</li>
-							<li><span>·  2022. 3 ~ 2022. 5</span>제 20대 대통령직 인수위원회, 사회분과 자문위원</li>
-							<li><span>·  2022.10~</span>대통력직속 탄소중립녹색성장위원회, 민간위원</li>
+							<li><span>·  2024. 1 – 2025. 1</span>EDCF Advisory Committee Member, Ministry of Economy and Finance, Government of Republic of Korea</li>
+							<li><span>·  2023. 12 – 2025.12</span>ESG Committee Member, Korea Exim Bank</li>
+							<li><span>·  2023. 11 – 2026.10</span>UNESCO Korea Committee, ESD member</li>
+							<li><span>·  2022. 10 - </span>Member, International Cooperation Sub-Committee, Presidential Council on Carbon Neutrality and Green</li>
+							<li><span>·  2022. 4 - </span>Editorial Board Member, Asia-Pacific Sustainable Development Journal, UNESCAP</li>
+							<li><span>·  2022. 3 - </span>President, K-Policy Platform</li>
+							<li><span>·  2021. 3 - </span>Board Member, World Wide Fund for Nature (WWF), Korea</li>
+							<li><span>·  2019. 9 - </span>Director, Sustainable Development Program, Ban Ki-moon Foundation</li>
 						</ul>
 					</dd>
 				</dl>
 			</div>
 		</div>
-	</div>	
+		</c:if>
+
+		<!-- 김용건 교수님 약력 -->
+		<c:if test="${profId eq 'kimYG'}">
+			<div class="researcher_view" id="kimYG">
+				<div class="info">
+					<div class="name"><strong>Kim<br/> Young-Gun</strong></div>
+					<b>Professor, Graduate School of International Studies, Yonsei University<br/><br/>
+						ygkim@yonsei.ac.kr
+					</b>
+				</div>
+				<div class="career">
+					<dl>
+						<dt>Education</dt>
+						<dd>
+							<ul>
+								<li><span>·  1996</span>Ph.D. in Environmental Economics, Korea Advanced Institute of Science and Technology</li>
+								<li><span>·  1992</span>M.A. in Management Science, Korea Advanced Institute of Science and Technology </li>
+								<li><span>·  1989</span>B.B.A. in Business Administration, Seoul National University (SNU)</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Research and <br/> Academic <br/> Employment</dt>
+						<dd>
+							<ul>
+								<li><span>·  2024</span>Full-Time Professor, Graduate School of International Studies (GSIS), Yonsei University, Seoul</li>
+								<li><span>·  1996 - 2024</span>Chief Research Fellow, Korea Environment Institute (KEI)</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Professional <br/> Services</dt>
+						<dd>
+							<ul>
+								<li><span>·  2010 - 2023</span>Lead author for IPCC AR5 and AR6 WG-III</li>
+								<li><span>·  2016 - 2018</span>President, Greenhouse Gas Inventory and Research Center, Ministry of Environment</li>
+								<li><span>·  2014 - 2016</span>Project Leader, Integrated Top-down and Bottom-up GHG Mitigation Modeling for Korea, Ministry of Environment</li>
+								<li><span>·  2013 - 2014</span>Director, Office of Planning and Coordination, Korea Environment Institute (KEI)</li>
+								<li><span>·  2008 - 2013</span>Director, Climate Economics Division, Korea Environment Institute (KEI)</li>
+								<li><span>·  2006 - 2008</span>Consultant, Environment Directorate, OECD CGE modeling for OECD Environmental Outlook</li>
+								<li><span>·  2005 - 2006</span>Director, Climate Change Research Division, Korea Environment Institute (KEI)</li>
+								<li><span>·  1997 - 2016</span>Government delegation of Korea for Climate Change Negotiation (most of COP meetings, Subsidiary Body meetings and OECD AIXG meetings)</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</c:if>
+
+		<!-- 구윤모 교수님 약력 -->
+		<c:if test="${profId eq 'kooYM'}">
+			<div class="researcher_view" id="kooYM">
+				<div class="info">
+					<div class="name"><strong>Koo <br/> Yoonmo</strong></div>
+					<b>Associate Professor, Graduate School of Engineering Practice (GSEP), Seoul National University<br/>
+					</b>
+					<p>+82-2-880-2269 (Office)<br>
+						yyounmo@snu.ac.kr
+					</p>
+				</div>
+				<div class="career">
+					<dl>
+						<dt>Education</dt>
+						<dd>
+							<ul>
+								<li><span>·  2012</span>Ph. D. in Engineering (Technology Policy), Seoul National University</li>
+								<li><span>·  2007</span>B. S. in Engineering (Electrical Engineering), Korea Advanced Institute of Science & Technology (KAIST)</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Work <br/> Experiences</dt>
+						<dd>
+							<ul>
+								<li><span>·  2020. 3 - Present</span>Associate Professor, SNU GSEP</li>
+								<li><span>·  2022. 8 - 2023. 7</span>Visiting Professor,  ISyE, GA Tech</li>
+								<li><span>·  2016. 3 – 2020. 2</span>Assistant Professor, SNU GSEP</li>
+								<li><span>·  2014. 8 - 2016. 2</span>Research Fellow, Korea Environment Institute</li>
+								<li><span>·  2013. 8 - 2014. 7</span>Visiting Researcher, ISyE, GA Tech</li>
+								<li><span>·  2012. 9 - 2013. 7</span>Senior Researcher, SNU ERI</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Services</dt>
+						<dd>
+							<ul>
+								<li><span>·  2022. 6 - Present</span>Development of a Global Industry Sector Model for Carbon Neutrality Implementation, Korea Environmental Industry & Technology Institute</li>
+								<li><span>·  2022. 6 - Present</span>Development of an Integrated Power-Transport Sector Model for Evaluating 2050 Carbon Neutrality Scenarios, National Research Foundation of Korea</li>
+								<li><span>·  2021 - Present</span>Member of the Board of Directors, Korean Environmental Economics Association</li>
+								<li><span>·  2018 - Present</span>Registered Director and Chair of the Academic Committee, Korean Society for Innovation</li>
+								<li><span>·  2022</span>Member, Policy Working Group for the 10th Basic Plan for Long-term Electricity Supply and Demand, Ministry of Trade, Industry and Energy (MOTIE)</li>
+								<li><span>·  2019 - 2021</span>Member, Energy Expert Committee, Presidential Committee on Northern Economic Cooperation</li>
+								<li><span>·  2019 - 2020</span>Member, Policy Working Group for the 9th Basic Plan for Long-term Electricity Supply and Demand, Ministry of Trade, Industry and Energy (MOTIE)</li>
+								<li><span>·  2018 - 2020</span>Member, Energy Policy Advisory Committee, Ministry of Trade, Industry and Energy (MOTIE)</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</c:if>
+
+		<!-- 안영환 교수님 약력 -->
+		<c:if test="${profId eq 'ahnYH'}">
+			<div class="researcher_view" id="ahnYH">
+				<div class="info">
+					<div class="name"><strong>Ahn <br/>Young-hwan</strong></div>
+					<b>Associate Professor, Sookmyung Women’s University<br/>
+					</b>
+					<p>+82-2-710-9207 (Office)<br/>
+						yh.ahn@sm.ac.kr
+					</p>
+				</div>
+				<div class="career">
+					<dl>
+						<dt>Education</dt>
+						<dd>
+							<ul>
+								<li><span>·  2002</span>Ph.D. in Management Engineering, Korea Advanced Institute of Science and Technology (KAIST)</li>
+								<li><span>·  1996</span>M.S. in Industrial Management, Korea Advanced Institute of Science and Technology (KAIST)</li>
+								<li><span>·  1993</span>B.S. in Management Policy, Korea Advanced Institute of Science and Technology (KAIST)</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Professional <br/> Experience</dt>
+						<dd>
+							<ul>
+								<li><span>·  2019. 9 - Present</span>Associate Professor, Sookmyung Women’s University</li>
+								<li><span>·  2016. 4 - 2019. 8</span>Senior Research Fellow / Team Leader, Climate Change Research Team, Korea Energy Economics Institute (KEEI)</li>
+								<li><span>·  2011. 6 - 2016. 3</span>Research Scholar, Air Quality and Greenhouse Gases Program, International Institute for Applied Systems Analysis (IIASA)</li>
+								<li><span>·  2010. 3 - 2011. 6</span>Team Leader, GHG Reduction Target Team, Greenhouse Gas Inventory and Research Center of Korea (GIR)</li>
+								<li><span>·  2006. 4 - 2011. 6</span>Research Fellow, Korea Energy Economics Institute</li>
+								<li><span>·  2005. 2 - 2006. 2</span>Postdoctoral Research Fellow, INSEAD</li>
+								<li><span>·  2002. 3 - 2004. 12</span>Manager, Environment and Energy Division, Eco-Frontier Co., Ltd.</li>
+								<li><span>·  2000. 2 - 2000. 7</span>Visiting Researcher (Part-time), Tokyo Institute of Technology</li>
+								<li><span>·  1999. 11 - 2000. 7</span>Ph.D. Fellow, United Nations University / Institute of Advanced Studies (UNU/IAS)</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</c:if>
+
+		<!-- 장 훈 박사님 약력 -->
+		<c:if test="${profId eq 'jangH'}">
+			<div class="researcher_view" id="jungTY">
+				<div class="info">
+					<div class="name"><strong>Chang Hoon</strong></div>
+					<b>Director General of the Climate and Air Quality Research Group,
+						Korea Environment Institute (KEI)<br/>
+					</b>
+				</div>
+				<div class="career">
+					<dl>
+						<dt>Education</dt>
+						<dd>
+							<ul>
+								<li>In ready.</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Work <br/> Experiences</dt>
+						<dd>
+							<ul>
+								<li>In ready.</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>Services</dt>
+						<dd>
+							<ul>
+								<li>In ready.</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</c:if>
+	</div>
 </div>
 <jsp:include page="../../inc/UniconIncFooter.jsp" flush="true"/>
 </body>

@@ -150,7 +150,7 @@ public class EgovAboutController {
 		model.addAttribute("gNum", "01");
 		model.addAttribute("sNum", "03");
 		model.addAttribute("gName", "About UNICON");
-		model.addAttribute("sName", "Researcher");
+		model.addAttribute("sName", "Researchers");
 		// 공지사항 메인컨텐츠 조회 끝 -----------------------------------
 
 		return "uniconEng/sub_menu/about/researcher";

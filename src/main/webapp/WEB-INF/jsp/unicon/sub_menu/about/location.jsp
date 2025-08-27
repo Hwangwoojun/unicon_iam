@@ -93,7 +93,7 @@ $(document).ready (function () {
 	var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 	
 	
-	var imageSrc = '/images/unicon/icon_map_point.svg'; // 마커이미지의 주소입니다    
+	var imageSrc = '/images/unicon/icon_map_point_kr.svg'; // 마커이미지의 주소입니다
 	if (isMobileDevice()) {
 		var imageSize = new kakao.maps.Size(220, 69); // 마커이미지의 크기입니다
 		var imageOption = {offset: new kakao.maps.Point(110, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.

@@ -69,6 +69,9 @@
 				</a>
 			</li>
 		</ul>
+		<div class="researcher_chart">
+			<img src="/images/unicon/img_researcher_chart.svg">
+		</div>
 
 	</div>
 </div>

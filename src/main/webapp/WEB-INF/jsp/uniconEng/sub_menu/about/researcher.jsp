@@ -35,34 +35,44 @@
 		<ul class="researcher_list">
 		
 			 <li>
-				<a href="/eng/about/researcher_view">
+				<a href="/eng/about/researcher_view?id=jungTY">
 					<div class="img"><img src="/images/unicon/img_researcher01.jpg" alt="image"></div>
-					<div class="name"><strong>정태용</strong>Professor</div>
+					<div class="name"><strong>Jung, Tae Yong</strong></div>
 					<p>cooperation, policy scenario, UI/DB, <br class="pc_vw">carbon capture (forest), climate module</p>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/eng/about/researcher_view?id=kimYG">
 					<div class="img"><img src="/images/unicon/img_researcher02.jpg" alt="image"></div>
-					<div class="name"><strong>김용건</strong>교수</div>
+					<div class="name"><strong>Kim, Yong-Gun</strong></div>
 					<p>CGE Model, Power DB, Power Model, <br class="pc_vw">Korean GHG and Energy IA Model</p>
 				</a>
 			</li>
 			<li>
-				<a href=#>
+				<a href="/eng/about/researcher_view?id=kooYM">
 					<div class="img"><img src="/images/unicon/img_researcher03.jpg" alt="image"></div>
-					<div class="name"><strong>구윤모</strong>Professor</div>
+					<div class="name"><strong>Koo, Yoonmo</strong></div>
 					<p>Industrial DB, technology DB, technology outlook, <br class="pc_vw">Power and transportation sector</p>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/eng/about/researcher_view?id=ahnYH">
 					<div class="img"><img src="/images/unicon/img_researcher04.jpg" alt="image"></div>
-					<div class="name"><strong>안영환</strong>Professor</div>
+					<div class="name"><strong>Ahn, Young-hwan</strong></div>
 					<p>Quantitative Analysis, Transport DB, Transport Model</p>
 				</a>
-			</li> 
+			</li>
+			<li>
+				<a href="/eng/about/researcher_view?id=jangH">
+					<div class="img"><img src="/images/unicon/img_researcher05.png" alt="image"></div>
+					<div class="name"><strong>Chang, Hoon</strong></div>
+					<p>Urban Planning, Spatial Planning, GCF,<br class="pc_vw">Climate Change, SDGs, Developing Countries</p>
+				</a>
+			</li>
 		</ul>
+		<div class="researcher_chart">
+			<img src="/images/unicon/img_researcher_chart.svg">
+		</div>
 	</div>
 	
 </div>

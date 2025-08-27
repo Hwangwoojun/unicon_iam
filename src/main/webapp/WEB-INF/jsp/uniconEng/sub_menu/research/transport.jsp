@@ -87,32 +87,32 @@
 							href="javascript:void(0);" class="f">USA</a>
 					</dd>
 				</dl>
-				<dl class="select2" style="width: 320px !important;">
-					<dt>기술별 연도별 차량 등록대수</dt>
+				<dl class="select2" style="width: 450px !important;">
+					<dt>Vehicle Registration by Technology by Year</dt>
 					<dd style="position: static;">
 						<div class="box a on">
-							<a href="javascript:void(0);" class="t1 on">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1 on">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 						<div class="box b">
-							<a href="javascript:void(0);" class="t1">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 						<div class="box c">
-							<a href="javascript:void(0);" class="t1">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 						<div class="box d">
-							<a href="javascript:void(0);" class="t1">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 						<div class="box e">
-							<a href="javascript:void(0);" class="t1">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 						<div class="box f">
-							<a href="javascript:void(0);" class="t1">기술별 연도별 차량 등록대수</a> <a
-								href="javascript:void(0);" class="t2">기술별 연도별 총 주행거리</a>
+							<a href="javascript:void(0);" class="t1">Vehicle Registration by Technology by Year</a> <a
+								href="javascript:void(0);" class="t2">Total Vehicle Mileage by technology by Year</a>
 						</div>
 					</dd>
 				</dl>
@@ -3528,7 +3528,7 @@ $('#dataTable7').DataTable({
                 },
                 title: {
                     display: true,
-                    text: '호주 기술별 연도별 차량 등록대수'
+                    text: 'Number of Registered Vehicles in Australia by Technology and Year'
                 }
             },
 			scales: {
@@ -3639,7 +3639,7 @@ $('#dataTable7').DataTable({
                 },
                 title: {
                     display: true,
-                    text: '뉴질랜드 기술별 연도별 차량 등록대수'
+                    text: 'Number of Registered Vehicles in New Zealand by Technology and Year'
                 }
             },
             scales: {
@@ -3703,7 +3703,7 @@ const d1dataset12 =[501,534,556,554,628,623,621,593,577,633,724,755,1118,1270,20
                 },
                 title: {
                     display: true,
-                    text: '멕시코 기술별 연도별 차량 등록대수'
+                    text: 'Number of Registered Vehicles in Mexico by Technology and Year'
                 }
             },
             scales: {
@@ -3755,7 +3755,7 @@ const d1dataset12 =[501,534,556,554,628,623,621,593,577,633,724,755,1118,1270,20
 	                },
 	                title: {
 	                    display: true,
-	                    text: 'EU 기술별 연도별 차량 등록대수'
+	                    text: 'Number of Registered Vehicles in EU by Technology and Year'
 	                }
 	            },
 	            scales: {
@@ -3812,7 +3812,7 @@ const d1dataset12 =[501,534,556,554,628,623,621,593,577,633,724,755,1118,1270,20
 		                },
 		                title: {
 		                    display: true,
-		                    text: '미국 기술별 연도별 차량 등록대수'
+		                    text: 'Number of Registered Vehicles in USA by Technology and Year'
 		                }
 		            },
 					scales: {
