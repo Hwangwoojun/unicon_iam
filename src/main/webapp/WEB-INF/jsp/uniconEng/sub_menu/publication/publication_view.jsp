@@ -70,7 +70,7 @@
 							
 						</p>
 					</div>
-					
+					<%-- 영문 추가 -->
 				</div>
 				<%-- <div class="prev_next">
 					<div class="prev">
