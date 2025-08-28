@@ -405,7 +405,7 @@ body.ie .ie_wrap {display:block;}
 
 /* 게시판 상세 */
 .board_view {border-top:#222 1px solid;}
-.board_view .tit {padding:35px 60px; font-size:28px; font-weight:700; line-height:34px; border-bottom:#EAEAEA 1px solid;}
+.board_view .tit {padding:35px 50px; font-size:28px; font-weight:700; line-height:34px; border-bottom:#EAEAEA 1px solid;}
 .board_view .date {margin-top:26px; display:flex; gap:70px;}
 .board_view .date dl {position:relative; display:flex; gap:15px; font-size:18px; line-height:24px;}
 .board_view .date dl:before {content:""; position:absolute; top:50%; left:-35px; width:1px; height:16px; background:#707070; opacity:.17; transform:translateY(-50%);}
@@ -483,3 +483,16 @@ body.ie .ie_wrap {display:block;}
 
 .chart_wrap .chart_box {display: none;}
 .chart_wrap .chart_box.on {display: block;}
+
+/* Database : Input / Output 셀렉박스 */
+.db-two-select {display:flex; justify-content:center; gap:20px; margin-bottom:25px;}
+
+.db-two-select .select-group {position:relative; width:210px;}
+
+.db-two-select .select-group label {position:absolute; top:-9px; left:12px; padding:0 6px; background:#fff; font-size:12px; color:#888; z-index:1;}
+
+.db-two-select .select-group select {width:100% !important; height:48px !important; line-height:48px !important; padding:0 38px 0 15px !important; border:1px solid #ddd !important; border-radius:5px !important; background:#fff url('/images/unicon/arrow_snb.svg') no-repeat right 10px center / 10px auto !important; font-size:15px !important; cursor:pointer !important; transition:.2s linear !important; -webkit-appearance:none !important; -moz-appearance:none !important; appearance:none !important;}
+
+.db-two-select .select-group select:focus {border-color:#222 !important; outline:0 !important; box-shadow:0 4px 12px rgba(0,0,0,0.08) !important;}
+
+.db-two-select .select-group select option[disabled] {color:#aaa !important;}

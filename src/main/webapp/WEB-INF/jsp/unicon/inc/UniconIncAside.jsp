@@ -47,13 +47,59 @@
 			            <a href="/kr/research/building" class="${sNum == '04' ? 'on' : ''}">건물</a>
 			            <a href="/kr/research/forest" class="${sNum == '05' ? 'on' : ''}">산림</a>
 			        </c:when>
-			        <c:when test="${gNum == '03'}">
-			            <a href="/kr/database/steel" class="${sNum == '01' ? 'on' : ''}">철강</a>
-			            <a href="/kr/database/transport" class="${sNum == '02' ? 'on' : ''}">수송</a>
-			            <a href="/kr/database/electricity" class="${sNum == '03' ? 'on' : ''}">전력</a>
-			            <a href="/kr/database/building" class="${sNum == '04' ? 'on' : ''}">건물</a>
-			            <a href="/kr/database/forest" class="${sNum == '05' ? 'on' : ''}">산림</a>
-			        </c:when>
+
+					<c:when test="${gNum == '03'}">
+						<!-- io 모델값이 있으면 우선 사용, 없으면 param.io 사용 -->
+						<c:set var="currentIo" value="${empty io ? (empty param.io ? 'input' : param.io) : io}" />
+
+						<div class="db-two-select">
+							<!-- 왼쪽: IO -->
+							<div class="select-group">
+								<label for="ioSelect">Input / Output</label>
+								<select id="ioSelect">
+									<option value="input"  ${currentIo=='input'  ? 'selected' : ''}>Input</option>
+									<option value="output" ${currentIo=='output' ? 'selected' : ''}>Output</option>
+								</select>
+							</div>
+
+							<!-- 오른쪽: Sector -->
+							<div class="select-group">
+								<label for="sectorSelect">Sector</label>
+								<select id="sectorSelect">
+									<option data-path="<c:url value='/kr/database/steel'/>"       ${sNum=='01' ? 'selected' : ''}>산업</option>
+									<option data-path="<c:url value='/kr/database/transport'/>"   ${sNum=='02' ? 'selected' : ''}>수송</option>
+									<option data-path="<c:url value='/kr/database/electricity'/>" ${sNum=='03' ? 'selected' : ''}>전력</option>
+									<option data-path="<c:url value='/kr/database/building'/>"    ${sNum=='04' ? 'selected' : ''}>건물</option>
+									<option data-path="<c:url value='/kr/database/forest'/>"      ${sNum=='05' ? 'selected' : ''}>산림</option>
+								</select>
+							</div>
+						</div>
+
+						<script>
+							(function(){
+								const ioSel = document.getElementById('ioSelect');
+								const sectorSel = document.getElementById('sectorSelect');
+
+								function setUrls() {
+									const io = ioSel.value || 'input';
+									[...sectorSel.options].forEach(opt => {
+										const base = opt.getAttribute('data-path');
+										if (base) opt.value = base + '?io=' + io;
+									});
+								}
+								ioSel.value = '${currentIo}';
+								setUrls();
+
+								ioSel.onchange = () => {
+									setUrls();
+									sectorSel.selectedIndex = 0;                // 산업으로 리셋
+									location.href = sectorSel.options[0].value; // 즉시 이동
+								};
+								sectorSel.onchange = () => location.href = sectorSel.value;
+							})();
+						</script>
+					</c:when>
+
 			        <c:when test="${gNum == '04'}">
 						<a href="/kr/partnership/partnership?year=2025" class="${sNum == '2025' ? 'on' : ''}">2025</a>
 			            <a href="/kr/partnership/partnership?year=2024" class="${sNum == '2024' ? 'on' : ''}">2024</a>

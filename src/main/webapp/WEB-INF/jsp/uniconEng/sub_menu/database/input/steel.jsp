@@ -19,20 +19,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Language" content="ko" >
-<jsp:include page="../../inc/dtd.jsp" flush="true"/>
+<jsp:include page="../../../inc/dtd.jsp" flush="true"/>
 </head>
 <body>
 <noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>	
 <!-- 전체 레이어 시작 -->
-<jsp:include page="../../inc/UniconIncHeader.jsp" flush="true"/>
-<jsp:include page="../../inc/UniconIncAside.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncHeader.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncAside.jsp" flush="true"/>
 
 <div id="mainContent" class="container g${gNum} s${sNum}">
 	<div class="title">${sName}</div>
 		<div class="reseach_con">
 		<div class="inner">
 			<div class="over_tbl">
-				준비중입니다.
+				In ready.
 			</div>
 		</div>
 	</div>
@@ -72,7 +72,7 @@ $(document).ready(function() {
     });
   });
 </script>
-<jsp:include page="../../inc/UniconIncFooter.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncFooter.jsp" flush="true"/>
 </body>
 </html>
 

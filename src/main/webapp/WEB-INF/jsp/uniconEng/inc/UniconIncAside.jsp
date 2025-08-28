@@ -40,6 +40,7 @@
 			            <a href="/eng/about/researcher" class="${sNum == '03' ? 'on' : ''}">Researcher</a>
 			            <a href="/eng/about/location" class="${sNum == '04' ? 'on' : ''}">Contact</a>
 			        </c:when>
+
 			        <c:when test="${gNum == '02'}">
 			            <a href="/eng/research/steel" class="${sNum == '01' ? 'on' : ''}">Steel</a>
 			            <a href="/eng/research/transport" class="${sNum == '02' ? 'on' : ''}">Transport</a>
@@ -47,13 +48,61 @@
 			            <a href="/eng/research/building" class="${sNum == '04' ? 'on' : ''}">Building</a>
 			            <a href="/eng/research/forest" class="${sNum == '05' ? 'on' : ''}">Forest</a>
 			        </c:when>
-			        <c:when test="${gNum == '03'}">
-			            <a href="/eng/database/steel" class="${sNum == '01' ? 'on' : ''}">Steel</a>
-			            <a href="/eng/database/transport" class="${sNum == '02' ? 'on' : ''}">Transport</a>
-			            <a href="/eng/database/electricity" class="${sNum == '03' ? 'on' : ''}">Electricity</a>
-			            <a href="/eng/database/building" class="${sNum == '04' ? 'on' : ''}">Building</a>
-			            <a href="/eng/database/forest" class="${sNum == '05' ? 'on' : ''}">Forest</a>
-			        </c:when>
+
+					<c:when test="${gNum == '03'}">
+						<!-- io 모델값이 있으면 우선 사용, 없으면 param.io 사용 -->
+						<c:set var="currentIo" value="${empty io ? (empty param.io ? 'input' : param.io) : io}" />
+
+						<div class="db-two-select">
+							<!-- Left: IO -->
+							<div class="select-group">
+								<label for="ioSelect">Input / Output</label>
+								<select id="ioSelect">
+									<option value="input"  ${currentIo=='input'  ? 'selected' : ''}>Input</option>
+									<option value="output" ${currentIo=='output' ? 'selected' : ''}>Output</option>
+								</select>
+							</div>
+
+							<div class="select-group">
+								<label for="sectorSelect">Sector</label>
+								<select id="sectorSelect">
+									<option data-path="<c:url value='/eng/database/steel'/>"       ${sNum=='01' ? 'selected' : ''}>Industry</option>
+									<option data-path="<c:url value='/eng/database/transport'/>"   ${sNum=='02' ? 'selected' : ''}>Transport</option>
+									<option data-path="<c:url value='/eng/database/electricity'/>" ${sNum=='03' ? 'selected' : ''}>Electricity</option>
+									<option data-path="<c:url value='/eng/database/building'/>"    ${sNum=='04' ? 'selected' : ''}>Building</option>
+									<option data-path="<c:url value='/eng/database/forest'/>"      ${sNum=='05' ? 'selected' : ''}>Forest</option>
+								</select>
+							</div>
+						</div>
+
+						<script>
+							(function(){
+								const ioSel = document.getElementById('ioSelect');
+								const sectorSel = document.getElementById('sectorSelect');
+
+								function setUrls() {
+									const io = ioSel.value || 'input';
+									[...sectorSel.options].forEach(opt => {
+										const base = opt.getAttribute('data-path');
+										if (base) opt.value = base + '?io=' + io;
+									});
+								}
+								ioSel.value = '${currentIo}';
+								setUrls();
+
+								// Change IO -> reset to first sector (Steel) and go
+								ioSel.onchange = () => {
+									setUrls();
+									sectorSel.selectedIndex = 0;
+									location.href = sectorSel.options[0].value;
+								};
+
+								// Change Sector -> go
+								sectorSel.onchange = () => location.href = sectorSel.value;
+							})();
+						</script>
+					</c:when>
+
 			        <c:when test="${gNum == '04'}">
 						<a href="/eng/partnership/partnership?year=2025" class="${sNum == '2025' ? 'on' : ''}">2025</a>
 			            <a href="/eng/partnership/partnership?year=2024" class="${sNum == '2024' ? 'on' : ''}">2024</a>

@@ -19,7 +19,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Language" content="ko" >
-<jsp:include page="../../inc/dtd.jsp" flush="true"/>
+<jsp:include page="../../../inc/dtd.jsp" flush="true"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
@@ -66,8 +66,8 @@
 <body>
 <noscript>자바스크립트를 지원하지 않는 브라우저에서는 일부 기능을 사용하실 수 없습니다.</noscript>	
 <!-- 전체 레이어 시작 -->
-<jsp:include page="../../inc/UniconIncHeader.jsp" flush="true"/>
-<jsp:include page="../../inc/UniconIncAside.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncHeader.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncAside.jsp" flush="true"/>
 
 <div id="mainContent" class="container g${gNum} s${sNum}">
 	<div class="title">${sName}</div>
@@ -182,7 +182,7 @@ $(document).ready(function(){
     });
 });
 </script>
-<jsp:include page="../../inc/UniconIncFooter.jsp" flush="true"/>
+<jsp:include page="../../../inc/UniconIncFooter.jsp" flush="true"/>
 </body>
 </html>
 
