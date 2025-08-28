@@ -178,7 +178,7 @@ function fn_inqire_notice(nttId,bbsId) {
 										</c:otherwise>
 									</c:choose>
                                 </span>
-								<p><c:out value="${result.nttSj}"/></p>
+								<%--<p><c:out value="${result.nttSj}"/></p>--%>
 							</a>
 						</li>
 					</c:forEach>

@@ -64,7 +64,7 @@
 					
 					
 					<div style="margin-left: 90px; line-height: 220%;">
-						<citation>
+						<Citation>
 						<p style="text-align: justify; width: 90%; padding-bottom: 40px;">
 						<c:out value="${result.nttUrl}" escapeXml="true" />
 							

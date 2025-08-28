@@ -73,7 +73,7 @@ public class EgovPartnershipController {
 		model.addAttribute("galList", map.get("resultList"));
 
 		
-		if(year==null||year.isBlank()) {
+		if(year==null||year.isEmpty()) {
 			year="2025";
 		}
 		
@@ -120,7 +120,7 @@ public class EgovPartnershipController {
 		String year = request.getParameter("year") ;
 		String sNum;
 
-		if(year==null||year.isBlank()) {
+		if(year==null||year.isEmpty()) {
 			year="2025";
 		}
 
